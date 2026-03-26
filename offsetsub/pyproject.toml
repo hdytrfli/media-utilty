@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "offsetsub"
+version = "1.0.0"
+description = "Apply time offset to SRT subtitle files"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "tabulate",
+    "tqdm",
+]
+
+[project.scripts]
+offsetsub = "offsetsub.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nforename"
+version = "1.0.0"
+description = "Rename movie/show folders by adding year from .nfo files"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "tabulate",
+    "tqdm",
+]
+
+[project.scripts]
+nforename = "nforename.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
