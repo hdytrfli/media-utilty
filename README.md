@@ -8,21 +8,21 @@ A collection of command-line tools for managing and organizing my personal self-
 
 ```bash
 # Install nforename
-pip install git+https://github.com/hdytrfli/media-utilty.git#subdirectory=nforename
+pip install git+https://github.com/hdytrfli/media-utility.git#subdirectory=nforename
 
 # Install extractsub
-pip install git+https://github.com/hdytrfli/media-utilty.git#subdirectory=extractsub
+pip install git+https://github.com/hdytrfli/media-utility.git#subdirectory=extractsub
 
 # Install offsetsub
-pip install git+https://github.com/hdytrfli/media-utilty.git#subdirectory=offsetsub
+pip install git+https://github.com/hdytrfli/media-utility.git#subdirectory=offsetsub
 ```
 
 ### Install from Local Clone
 
 ```bash
 # Clone the repository
-git clone https://github.com/hdytrfli/media-utilty.git
-cd media-utilty
+git clone https://github.com/hdytrfli/media-utility.git
+cd media-utility
 
 # Install individual tools
 pip install -e ./nforename

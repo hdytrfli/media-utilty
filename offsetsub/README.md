@@ -7,14 +7,14 @@ Apply time offset to SRT subtitle files.
 ### Install from GitHub
 
 ```bash
-pip install git+https://github.com/hdytrfli/media-utilty.git#subdirectory=offsetsub
+pip install git+https://github.com/hdytrfli/media-utility.git#subdirectory=offsetsub
 ```
 
 ### Install from Local Clone
 
 ```bash
-git clone https://github.com/hdytrfli/media-utilty.git
-cd media-utilty/offsetsub
+git clone https://github.com/hdytrfli/media-utility.git
+cd media-utility/offsetsub
 pip install -e .
 ```
 

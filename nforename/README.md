@@ -7,14 +7,14 @@ Automatically rename movie and TV show folders by adding the year from `.nfo` fi
 ### Install from GitHub
 
 ```bash
-pip install git+https://github.com/hdytrfli/media-utilty.git#subdirectory=nforename
+pip install git+https://github.com/hdytrfli/media-utility.git#subdirectory=nforename
 ```
 
 ### Install from Local Clone
 
 ```bash
-git clone https://github.com/hdytrfli/media-utilty.git
-cd media-utilty/nforename
+git clone https://github.com/hdytrfli/media-utility.git
+cd media-utility/nforename
 pip install -e .
 ```
 

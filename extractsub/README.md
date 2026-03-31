@@ -7,14 +7,14 @@ Automatically extract embedded subtitles from MKV files and optionally remove th
 ### Install from GitHub
 
 ```bash
-pip install git+https://github.com/hdytrfli/media-utilty.git#subdirectory=extractsub
+pip install git+https://github.com/hdytrfli/media-utility.git#subdirectory=extractsub
 ```
 
 ### Install from Local Clone
 
 ```bash
-git clone https://github.com/hdytrfli/media-utilty.git
-cd media-utilty/extractsub
+git clone https://github.com/hdytrfli/media-utility.git
+cd media-utility/extractsub
 pip install -e .
 ```
 
